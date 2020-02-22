@@ -27,9 +27,9 @@
 #include "RTIMU.h"
 
 //  I2C Slave Addresses
-
-#define L3GD20_ADDRESS0             0x6a
-#define L3GD20_ADDRESS1             0x6b
+// cambiado a 0x69
+#define L3GD20_ADDRESS0             0x69
+#define L3GD20_ADDRESS1             0x69
 #define L3GD20_ID                   0xd4
 
 #define LSM303DLHC_ACCEL_ADDRESS    0x19

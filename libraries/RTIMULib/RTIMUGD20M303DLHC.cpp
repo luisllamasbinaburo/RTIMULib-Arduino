@@ -55,9 +55,7 @@ int RTIMUGD20M303DLHC::IMUInit()
     if (!I2CRead(m_gyroSlaveAddr, L3GD20_WHO_AM_I, 1, &result))
         return -2;
 
-    if (result != L3GD20_ID) {
-        return -3;
-    }
+    
 
     if (!setGyroSampleRate())
             return -4;

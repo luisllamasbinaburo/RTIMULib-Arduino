@@ -28,12 +28,12 @@
 
 //  I2C Slave Addresses
 
-#define L3GD20H_ADDRESS0        0x6a
-#define L3GD20H_ADDRESS1        0x6b
+#define L3GD20H_ADDRESS0        0x69
+#define L3GD20H_ADDRESS1        0x6e
 #define L3GD20H_ID              0xd7
 
-#define LSM303D_ADDRESS0        0x1e
-#define LSM303D_ADDRESS1        0x1d
+#define LSM303D_ADDRESS0        0x19
+#define LSM303D_ADDRESS1        0x1e
 #define LSM303D_ID              0x49
 
 //  L3GD20H Register map
